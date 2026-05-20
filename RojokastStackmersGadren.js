@@ -572,8 +572,8 @@ const PlMnBvCxZaSdFgH = () => {
             setCheckApsData(JSON.stringify(res.data));
           } else if (res.data.af_status === 'Organic') {
             //await fetchAdServicesAttributionData();
-            setSab1('test1_test2_test3_test4'); //test1_test2_test3
-            //console.log('Organic');
+            //setSab1('test1_test2_test3_test4'); //test1_test2_test3
+            console.log('Organic');
           }
         } else {
           console.log('This is not first launch');
